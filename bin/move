@@ -9,9 +9,9 @@ index = 0
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 
-input = gets.strip
+x = gets.strip
 
-input_to_index(input)
+input_to_index(x)
 
 puts index
 
